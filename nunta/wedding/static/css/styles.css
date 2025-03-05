@@ -1,0 +1,53 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Raleway:wght@300;400&display=swap');
+
+body {
+    background-color: #800020;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+}
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Carousel styling */
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.carousel-inner img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Location Card */
+.location-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* RSVP Form */
+.rsvp-form {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    background-color: #b33c3c;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #922d2d;
+}
