@@ -1,5 +1,3 @@
-fa l si pe asta engleza # Invitatie de Nunta - Django Project
-
 ## Descriere
 
 Acest proiect este o aplicație web realizată în Django, care permite trimiterea unei invitații de nuntă online. Utilizatorii pot completa un formular RSVP pentru a confirma participarea și pot vizualiza imagini într-un slider interactiv.
