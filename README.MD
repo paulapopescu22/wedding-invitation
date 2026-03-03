@@ -1,21 +1,67 @@
-# Wedding Invitation - Django Project
+fa l si pe asta engleza # Invitatie de Nunta - Django Project
 
-## Description
+## Descriere
 
-This project is a Django-based web application that enables sending online wedding invitations. Users can fill out an RSVP form to confirm their attendance and view images in an interactive slider.
+Acest proiect este o aplicație web realizată în Django, care permite trimiterea unei invitații de nuntă online. Utilizatorii pot completa un formular RSVP pentru a confirma participarea și pot vizualiza imagini într-un slider interactiv.
 
-## Features
+## Funcționalități
 
-- **Home page with the invitation**  
-- **RSVP Form** (Name, Email, Message, Attendance Checkbox)  
-- **Interactive image slider with 3 images**  
-- **Django Admin panel** for managing guests  
-- **API to retrieve and submit RSVPs**
+- **Pagina principală cu invitația**
+- **Formular RSVP** (Nume, Email, Mesaj, Bifare Participare)
+- **Slider cu 3 imagini**
+- **Panou de administrare Django** pentru gestionarea invitaților
+- **API pentru a obține și trimite RSVP-uri**
 
-## Installation and Running
+## Instalare și rulare
 
-### 1. Clone the repository
+### 1. Clonare repository
 
 ```sh
-git clone https://github.com/username/wedding-invitation.git
-cd wedding-invitation
+git clone https://github.com/utilizator/invitatie-nunta.git
+cd invitatie-nunta
+```
+
+### 2. Crearea și activarea unui mediu virtual
+
+```sh
+python -m venv venv
+source venv/bin/activate  
+```
+
+### 3. Instalarea dependențelor
+
+```sh
+pip install -r requirements.txt
+```
+
+### 4. Aplicarea migrărilor bazei de date
+
+```sh
+python manage.py migrate
+```
+
+### 5. Crearea unui utilizator Django (pentru acces la Admin)
+
+```sh
+python manage.py createsuperuser
+```
+
+### 6. Pornirea serverului Django
+
+```sh
+python manage.py runserver
+```
+
+
+
+## Utilizare API
+
+- Endpoint pentru RSVP: `/api/rsvp/`
+- Metode acceptate: GET, POST
+
+## Autori
+
+- Popescu Paula
+
+
+
