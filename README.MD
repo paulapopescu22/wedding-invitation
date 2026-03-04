@@ -30,7 +30,7 @@ python -m venv venv
 source venv/bin/activate  
 ```
 
-3. nstall dependencies
+3. Install dependencies
 ```sh
 pip install -r requirements.txt
 ```
