@@ -1,2 +1,17 @@
 venv/
 .idea/
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Django
+nunta/db.sqlite3
+
+# Env
+.env
+
+# Node / frontend
+wedding-frontend/node_modules/
+wedding-frontend/dist/
