@@ -8,6 +8,7 @@ __pycache__/
 
 # Django
 nunta/db.sqlite3
+nunta/staticfiles/
 
 # Env
 .env
