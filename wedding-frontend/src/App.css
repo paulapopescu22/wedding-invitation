@@ -31,6 +31,14 @@
   letter-spacing: 1px;
 }
 
+.hero__subtitle {
+  margin-top: 4px;
+  font-size: 22px;
+  font-style: italic;
+  color: var(--ink);
+  opacity: 0.75;
+}
+
 .hero__date {
   margin-top: 12px;
   font-size: 20px;

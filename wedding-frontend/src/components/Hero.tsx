@@ -2,8 +2,9 @@ export default function Hero() {
   return (
     <header className="hero">
       <p className="hero__eyebrow">Cu mare bucurie vă invităm</p>
-      <h1 className="hero__title">La Nunta Noastră</h1>
-      <p className="hero__date">[ Data Evenimentului ] &middot; Castelul Bran</p>
+      <h1 className="hero__title">Maria &amp; Andrei</h1>
+      <p className="hero__subtitle">La Nunta Noastră</p>
+      <p className="hero__date">11 August 2026 &middot; Castelul Bran</p>
       <div className="hero__divider" aria-hidden="true">
         <span />
         <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
