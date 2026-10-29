@@ -1,5 +1,6 @@
 import { useState, type FormEvent } from 'react';
 import { submitRsvp } from '../api';
+import { sendRsvpEmails } from '../email';
 
 type Status = 'idle' | 'submitting' | 'success' | 'error';
 
@@ -18,6 +19,13 @@ export default function RsvpForm() {
     try {
       await submitRsvp({ name, email, attending });
       setStatus('success');
+
+      try {
+        await sendRsvpEmails({ name, email, attending });
+      } catch (emailErr) {
+        console.warn('RSVP salvat, dar emailul nu a putut fi trimis.', emailErr);
+      }
+
       setName('');
       setEmail('');
       setAttending(true);
